@@ -1,0 +1,18 @@
+@mixin hover_btn {
+	&:hover {
+		background-image: none;
+		background-color: $second_color;
+	}
+}
+
+@mixin hover_a {
+	&:hover {
+	color: $second_color;
+	}
+}
+
+@mixin hover_a2 {
+	&:hover {
+	color: $main_color;
+	}
+}
